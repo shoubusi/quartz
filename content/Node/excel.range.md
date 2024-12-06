@@ -1,0 +1,2 @@
+- [x] [excel.range.copy](https://docs.microsoft.com/en-us/office/vba/api/excel.range.copy) ✅ 2023-01-16
+- [x] [excel.range.cut](https://docs.microsoft.com/en-us/office/vba/api/excel.range.cut) ✅ 2023-01-16

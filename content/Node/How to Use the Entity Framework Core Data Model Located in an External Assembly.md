@@ -1,0 +1,1 @@
+# How to: Use the Entity Framework Core Data Model Located in an External Assembly

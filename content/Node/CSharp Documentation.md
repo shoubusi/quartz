@@ -1,0 +1,472 @@
+---
+date created: 2023-01-17
+date modified: 2023-02-28
+---
+
+# CSharp Documentation
+
+https://learn.microsoft.com/en-us/dotnet/csharp/
+
+%%
+- [ ] fundamentals
+	- [ ] program-structure
+		- [ ] [index](../../CSharpDoc/fundamentals/program-structure/index.md)
+		- [ ] [main-command-line](../../CSharpDoc/fundamentals/program-structure/main-command-line.md)
+		- [ ] [top-level-statements](../../CSharpDoc/fundamentals/program-structure/top-level-statements.md)
+	- [ ] types
+		- [ ] [anonymous-types](../../CSharpDoc/fundamentals/types/anonymous-types.md)
+		- [ ] [classes](../../CSharpDoc/fundamentals/types/classes.md)
+		- [ ] [generics](../../CSharpDoc/fundamentals/types/generics.md)
+		- [ ] [index](../../CSharpDoc/fundamentals/types/index.md)
+		- [ ] interfaces
+		- [ ] namespaces
+		- [ ] records
+	- [ ] object-oriented
+		- [ ] index
+		- [ ] inheritance
+		- [ ] objects
+		- [ ] polymorphism
+	- [ ] functional
+		- [ ] deconstruct
+		- [ ] discards
+		- [ ] pattern-matching
+	- [ ] exceptions
+		- [ ] compiler-generated-exceptions
+		- [ ] creating-and-throwing-exceptions
+		- [ ] exception-handling
+		- [ ] how-to-execute-cleanup-code-using-finally
+		- [ ] how-to-handle-an-exception-using-try-catch
+		- [ ] index
+		- [ ] using-exceptions
+	- [ ] coding-style
+		- [ ] coding-conventions
+		- [ ] identifier-names
+	- [ ] tutorials
+		- [ ] classes
+		- [ ] how-to-display-command-line-arguments
+		- [ ] inheritance
+		- [ ] oop
+		- [ ] pattern-matching
+		- [ ] safely-cast-using-pattern-matching-is-and-as-operators
+
+- [ ] programming-guide
+	- [ ] index
+	- [ ] arrays
+		- [ ] implicitly-typed-arrays
+		- [ ] index
+		- [ ] jagged-arrays
+		- [ ] multidimensional-arrays
+		- [ ] passing-arrays-as-arguments
+		- [ ] single-dimensional-arrays
+		- [ ] using-foreach-with-arrays  
+	- [ ] classes-and-structs
+		- [ ] abstract-and-sealed-classes-and-class-members
+		- [ ] access-modifiers
+		- [ ] auto-implemented-properties
+		- [ ] constants
+		- [ ] constructors
+		- [ ] extension-methods
+		- [ ] fields
+		- [ ] finalizers
+		- [ ] how-to-create-a-new-method-for-an-enumeration
+		- [ ] how-to-declare-and-use-read-write-properties
+		- [ ] how-to-define-abstract-properties
+		- [ ] how-to-define-constants
+		- [ ] how-to-implement-a-lightweight-class-with-auto-implemented-properties
+		- [ ] how-to-implement-and-call-a-custom-extension-method
+		- [ ] how-to-initialize-a-dictionary-with-a-collection-initializer
+		- [ ] how-to-initialize-objects-by-using-an-object-initializer
+		- [ ] how-to-override-the-tostring-method
+		- [ ] how-to-return-subsets-of-element-properties-in-a-query
+		- [ ] how-to-use-implicitly-typed-local-variables-and-arrays-in-a-query-expression
+		- [ ] how-to-use-named-and-optional-arguments-in-office-programming
+		- [ ] how-to-write-a-copy-constructor
+		- [ ] implicitly-typed-local-variables
+		- [ ] instance-constructors
+		- [ ] interface-properties
+		- [ ] knowing-when-to-use-override-and-new-keywords
+		- [ ] local-functions
+		- [ ] members
+		- [ ] methods
+		- [ ] named-and-optional-arguments
+		- [ ] nested-types
+		- [ ] object-and-collection-initializers
+		- [ ] partial-classes-and-methods
+		- [ ] private-constructors
+		- [ ] properties
+		- [ ] restricting-accessor-accessibility
+		- [ ] static-classes-and-static-class-members
+		- [ ] static-constructors
+		- [ ] using-constructors
+		- [ ] using-properties
+		- [ ] versioning-with-the-override-and-new-keywords
+	- [ ] concepts
+		- [ ] collections
+		- [ ] index
+		- [ ] iterators
+		- [ ] reflection
+		- [ ] async
+			- [ ] async-return-types
+			- [ ] cancel-an-async-task-or-a-list-of-tasks
+			- [ ] cancel-async-tasks-after-a-period-of-time
+			- [ ] index
+			- [ ] start-multiple-async-tasks-and-process-them-as-they-complete
+			- [ ] task-asynchronous-programming-model
+			- [ ] using-async-for-file-access
+		- [ ] attributes
+			- [ ] accessing-attributes-by-using-reflection
+			- [ ] creating-custom-attributes
+			- [ ] how-to-create-a-c-cpp-union-by-using-attributes
+			- [ ] index
+		- [ ] covariance-contravariance
+			- [ ] creating-variant-generic-interfaces
+			- [ ] index
+			- [ ] using-variance-for-func-and-action-generic-delegates
+			- [ ] using-variance-in-delegates
+			- [ ] using-variance-in-interfaces-for-generic-collections
+			- [ ] variance-in-delegates
+			- [ ] variance-in-generic-interfaces
+		- [ ] expression-trees
+			- [ ] debugging-expression-trees-in-visual-studio
+			- [ ] debugview-syntax
+			- [ ] how-to-execute-expression-trees
+			- [ ] how-to-modify-expression-trees
+			- [ ] how-to-use-expression-trees-to-build-dynamic-queries
+			- [ ] index
+		- [ ] linq
+			- [ ] aggregation-operations
+			- [ ] basic-linq-query-operations
+			- [ ] classification-of-standard-query-operators-by-manner-of-execution
+			- [ ] concatenation-operations
+			- [ ] converting-data-types
+			- [ ] data-transformations-with-linq
+			- [ ] element-operations
+			- [ ] enabling-a-data-source-for-linq-querying1
+			- [ ] equality-operations
+			- [ ] features-that-support-linq
+			- [ ] filtering-data
+			- [ ] generation-operations
+			- [ ] grouping-data
+			- [ ] how-to-add-custom-methods-for-linq-queries
+			- [ ] how-to-combine-and-compare-string-collections-linq
+			- [ ] how-to-combine-linq-queries-with-regular-expressions
+			- [ ] how-to-compare-the-contents-of-two-folders-linq
+			- [ ] how-to-compute-column-values-in-a-csv-text-file-linq
+			- [ ] how-to-count-occurrences-of-a-word-in-a-string-linq
+			- [ ] how-to-find-the-set-difference-between-two-lists-linq
+			- [ ] how-to-group-files-by-extension-linq
+			- [ ] how-to-join-content-from-dissimilar-files-linq
+			- [ ] how-to-populate-object-collections-from-multiple-sources-linq
+			- [ ] how-to-query-an-arraylist-with-linq
+			- [ ] how-to-query-an-assembly-s-metadata-with-reflection-linq
+			- [ ] how-to-query-for-characters-in-a-string-linq
+			- [ ] how-to-query-for-duplicate-files-in-a-directory-tree-linq
+			- [ ] how-to-query-for-files-with-a-specified-attribute-or-name
+			- [ ] how-to-query-for-sentences-that-contain-a-specified-set-of-words-linq
+			- [ ] how-to-query-for-the-largest-file-or-files-in-a-directory-tree-linq
+			- [ ] how-to-query-for-the-total-number-of-bytes-in-a-set-of-folders-linq
+			- [ ] how-to-query-the-contents-of-files-in-a-folder-lin
+			- [ ] how-to-reorder-the-fields-of-a-delimited-file-linq
+			- [ ] how-to-sort-or-filter-text-data-by-any-word-or-field-linq
+			- [ ] how-to-split-a-file-into-many-files-by-using-groups-linq
+			- [ ] index
+			- [ ] introduction-to-linq-queries
+			- [ ] join-operations
+			- [ ] linq-and-file-directories
+			- [ ] linq-and-generic-types
+			- [ ] linq-and-strings
+			- [ ] linq-to-adonet-portal-page
+			- [ ] linq-to-objects
+			- [ ] partitioning-data
+			- [ ] projection-operations
+			- [ ] quantifier-operations
+			- [ ] query-expression-syntax-for-standard-query-operators
+			- [ ] query-syntax-and-method-syntax-in-linq
+			- [ ] set-operations
+			- [ ] sorting-data
+			- [ ] standard-query-operators-overview
+			- [ ] type-relationships-in-linq-query-operations
+			- [ ] visual-studio-ide-and-tools-support-for-linq
+			- [ ] walkthrough-writing-queries-linq
+		- [ ] serialization
+			- [ ] how-to-read-object-data-from-an-xml-file
+			- [ ] how-to-write-object-data-to-an-xml-file
+			- [ ] index
+			- [ ] walkthrough-persisting-an-object-in-visual-studio
+	- [ ] delegates
+		- [ ] delegates-with-named-vs-anonymous-methods
+		- [ ] how-to-combine-delegates-multicast-delegates
+		- [ ] how-to-declare-instantiate-and-use-a-delegate
+		- [ ] index
+		- [ ] using-delegates
+	- [ ] events
+		- [ ] how-to-implement-custom-event-accessors
+		- [ ] how-to-implement-interface-events
+		- [ ] how-to-publish-events-that-conform-to-net-framework-guidelines
+		- [ ] how-to-raise-base-class-events-in-derived-classes
+		- [ ] how-to-subscribe-to-and-unsubscribe-from-events
+		- [ ] index
+	- [ ] file-system
+		- [ ] how-to-copy-delete-and-move-files-and-folders
+		- [ ] how-to-create-a-file-or-folder
+		- [ ] how-to-create-a-key-in-the-registry
+		- [ ] how-to-get-information-about-files-folders-and-drives
+		- [ ] how-to-iterate-through-a-directory-tree
+		- [ ] how-to-provide-a-progress-dialog-box-for-file-operations
+		- [ ] how-to-read-a-text-file-one-line-at-a-time
+		- [ ] how-to-read-from-a-text-file
+		- [ ] how-to-write-to-a-text-file
+		- [ ] index
+	- [ ] generics
+		- [ ] constraints-on-type-parameters
+		- [ ] differences-between-cpp-templates-and-csharp-generics
+		- [ ] generic-classes
+		- [ ] generic-delegates
+		- [ ] generic-interfaces
+		- [ ] generic-methods
+		- [ ] generic-type-parameters
+		- [ ] generics-and-arrays
+		- [ ] generics-and-attributes
+		- [ ] generics-and-reflection
+		- [ ] generics-in-the-run-time
+	- [ ] indexers
+		- [ ] comparison-between-properties-and-indexers
+		- [ ] index
+		- [ ] indexers-in-interfaces
+		- [ ] using-indexers
+	- [ ] interfaces
+		- [ ] explicit-interface-implementation
+		- [ ] how-to-explicitly-implement-interface-members
+		- [ ] how-to-explicitly-implement-members-of-two-interfaces
+	- [ ] interop
+		- [ ] example-com-class
+		- [ ] how-to-access-office-onterop-objects
+		- [ ] how-to-use-indexed-properties-in-com-interop-rogramming
+		- [ ] how-to-use-platform-invoke-to-play-a-wave-file
+		- [ ] index
+		- [ ] interoperability-overview
+		- [ ] walkthrough-office-programming
+	- [ ] statements-expressions-operators
+		- [ ] equality-comparisons
+		- [ ] expression-bodied-members
+		- [ ] how-to-define-value-equality-for-a-type
+		- [ ] how-to-test-for-reference-equality-identity
+		- [ ] statements
+	- [ ] strings
+		- [ ] how-to-determine-whether-a-string-represents-a-numeric-value
+		- [ ] index
+	- [ ] types
+		- [ ] boxing-and-unboxing
+		- [ ] casting-and-type-conversions
+		- [ ] how-to-convert-a-byte-array-to-an-int
+		- [ ] how-to-convert-a-string-to-a-number
+		- [ ] how-to-convert-between-hexadecimal-strings-and-numeric-types
+		- [ ] using-type-dynamic
+		- [ ] walkthrough-creating-and-using-dynamic-objects
+
+- [ ] language-reference
+	- [ ] configure-language-version
+	- [ ] index
+	- [ ] preprocessor-directives
+	- [ ] unsafe-code
+	- [ ] attributes
+		- [ ] caller-information
+		- [ ] general
+		- [ ] global
+		- [ ] nullable-analysis
+	- [ ] builtin-types
+		- [ ] bool
+		- [ ] built-in-types
+		- [ ] char
+		- [ ] default-values
+		- [ ] enum
+		- [ ] floating-point-numeric-types
+		- [ ] integral-numeric-types
+		- [ ] nullable-reference-types
+		- [ ] nullable-value-types
+		- [ ] numeric-conversions
+		- [ ] record
+		- [ ] ref-struct
+		- [ ] reference-types
+		- [ ] struct
+		- [ ] unmanaged-types
+		- [ ] value-tuples
+		- [ ] value-types
+		- [ ] void
+	- [ ] compiler-options
+		- [ ] advanced
+		- [ ] code-generation
+		- [ ] errors-warnings
+		- [ ] index
+		- [ ] inputs
+		- [ ] language
+		- [ ] miscellaneous
+		- [ ] output
+		- [ ] resources
+		- [ ] security
+	- [ ] includes
+		- [ ] default-langversion-table
+		- [ ] langversion-table
+	- [ ] keywords
+		- [ ] abstract
+		- [ ] access-modifiers
+		- [ ] accessibility-domain
+		- [ ] accessibility-levels
+		- [ ] add
+		- [ ] ascending
+		- [ ] async
+		- [ ] base
+		- [ ] by
+		- [ ] class
+		- [ ] const
+		- [ ] default
+		- [ ] descending
+		- [ ] equals
+		- [ ] event
+		- [ ] extern-alias
+		- [ ] extern
+		- [ ] file
+		- [ ] from-clause
+		- [ ] get
+		- [ ] group-clause
+		- [ ] in-generic-modifier
+		- [ ] in-parameter-modifier
+		- [ ] in
+		- [ ] index
+		- [ ] init
+		- [ ] interface
+		- [ ] internal
+		- [ ] into
+		- [ ] join-clause
+		- [ ] let-clause
+		- [ ] method-parameters
+		- [ ] namespace
+		- [ ] new-constraint
+		- [ ] new-modifier
+		- [ ] null
+		- [ ] on
+		- [ ] orderby-clause
+		- [ ] out-generic-modifier
+		- [ ] out-parameter-modifier
+		- [ ] out
+		- [ ] override
+		- [ ] params
+		- [ ] partial-method
+		- [ ] partial-type
+		- [ ] private-protected
+		- [ ] private
+		- [ ] protected-internal
+		- [ ] protected
+		- [ ] public
+		- [ ] query-keywords
+		- [ ] readonly
+		- [ ] ref
+		- [ ] reference-types
+		- [ ] remove
+		- [ ] required
+		- [ ] restrictions-on-using-accessibility-levels
+		- [ ] sealed
+		- [ ] select-clause
+		- [ ] set
+		- [ ] statement-keywords
+		- [ ] static
+		- [ ] this
+		- [ ] throw
+		- [ ] try-catch-finally
+		- [ ] try-catch
+		- [ ] try-finally
+		- [ ] unsafe
+		- [ ] using-directive
+		- [ ] using-statement
+		- [ ] using
+		- [ ] value
+		- [ ] virtual
+		- [ ] volatile
+		- [ ] when
+		- [ ] where-clause
+		- [ ] where-generic-type-constraint
+	- [ ] operators
+		- [ ] addition-operator
+		- [ ] arithmetic-operators
+		- [ ] assignment-operator
+		- [ ] await
+		- [ ] bitwise-and-shift-operators
+		- [ ] boolean-logical-operators
+		- [ ] comparison-operators
+		- [ ] conditional-operator
+		- [ ] default
+		- [ ] delegate-operator
+		- [ ] equality-operators
+		- [ ] index
+		- [ ] is
+		- [ ] lambda-expressions
+		- [ ] lambda-operator
+		- [ ] member-access-operators
+		- [ ] nameof
+		- [ ] namespace-alias-qualifier
+		- [ ] new-operator
+		- [ ] null-coalescing-operator
+		- [ ] null-forgiving
+		- [ ] operator-overloading
+		- [ ] patterns
+		- [ ] pointer-related-operators
+		- [ ] sizeof
+		- [ ] stackalloc
+		- [ ] subtraction-operator
+		- [ ] switch-expression
+		- [ ] true-false-operators
+		- [ ] type-testing-and-cast
+		- [ ] user-defined-conversion-operators
+		- [ ] with-expression
+	- [ ] statements
+		- [ ] checked-and-unchecked
+		- [ ] declarations
+		- [ ] fixed
+		- [ ] iteration-statements
+		- [ ] jump-statements
+		- [ ] lock
+		- [ ] selection-statements
+		- [ ] yield
+	- [ ] tokens
+		- [ ] comments
+		- [ ] index
+		- [ ] interpolated
+		- [ ] raw-string
+		- [ ] verbatim
+	- [ ] xmldoc
+		- [ ] examples
+		- [ ] index
+		- [ ] recommended-tags
+%%
+
+
+
+[2023-01-30](../../Issue/2023-01-30.md)
+
+- documentation
+	- Program structure
+		- programs
+		- namespaces
+		- types
+		- members
+		- assemblies
+
+## Nullable reference types
+
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-reference-types
+
+Virtual, override, and abstract methods
+https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks#virtual-override-and-abstract-methods
+- A _**virtual**_ method is one declared and implemented in a base class where any derived class may provide a more specific implementation. 
+- An _**override**_ method is a method implemented in a derived class that modifies the behavior of the base class' implementation. 
+- An _**abstract**_ method is a method declared in a base class that _must_ be overridden in all derived classes. In fact, abstract methods don't define an implementation in the base class.
+
+Attributes
+https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features#attributes
+
+async / await
+https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features#async--await
+
+- Fundamentals
+	- Program structure
+		- [Main() and command-line arguments](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line)
