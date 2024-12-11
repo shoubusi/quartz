@@ -1,15 +1,16 @@
 ---
-
-## date created: 2024-06-28\
-date modified: 2024-06-28\
-tags: knowledge\
+date created: 2024-06-28
+date modified: 2024-12-11
+tags:
+  - knowledge
 archived: false
+---
 
 # .NET Generic Host
 
 <https://learn.microsoft.com/en-us/dotnet/core/extensions/generic-host>
 
-## What is the .NET Generic Host
+## Introduction
 
 > In context of Microsoft.Extensions.Hosting, what is the .NET Generic Host, and when should I use it
 
@@ -66,7 +67,7 @@ Here are some key features of the Generic Host:
 
 By using the Generic Host, you can create a decoupled and modular architecture for your application, making it easier to develop, test, and maintain. The host abstracts away many of the underlying details, allowing you to focus on writing business logic code without worrying about infrastructure concerns.
 
-## Add services to the DI container
+## Add Services to the DI Container
 
 > In context of Microsoft.Extensions.Hosting, how to use the host builder to add services to the DI container.
 
@@ -118,7 +119,7 @@ In this case, we use the `ConfigureServices` method with a lambda that takes bot
 
 By using the host builder to configure your application's services, you can decouple your service registration from your application code, making it easier to manage and maintain large applications with complex dependencies.
 
-## Configure logging
+## Configure Logging
 
 In context of Microsoft.Extensions.Hosting, how to use the host builder to configure logging.
 
@@ -191,7 +192,7 @@ public class Program
 
 By using the host builder to configure logging, you can easily manage and customize your application's logging configuration.
 
-## Set up the application's configuration settings
+## Set up the Application's Configuration Settings
 
 In context of Microsoft.Extensions.Hosting, how to use the host builder to set up the application's configuration settings.
 
@@ -259,7 +260,7 @@ In this example, we're creating a host instance and configuring it to set two co
 
 Remember that you can also load configuration values from external sources like environment variables, files, or databases using various extension methods provided by `Microsoft.Extensions.Configuration`.
 
-## Application's lifecycle
+## Application's Lifecycle
 
 In context of Microsoft.Extensions.Hosting, how to use the host to take care of the application's lifecycle and the execution of `IHostedService` implementations.
 
